@@ -20,7 +20,7 @@ h3 {
   font-family: monospace;
   font-size: 24px;
   color: white;
-  text-shadow: 2px 2px gray;
+  text-shadow: 3px 2px gray;
 }
 
 body {
@@ -154,4 +154,17 @@ a:hover {
 footer {
   padding: 12px;
   margin-top: 16px;
+
+}
+
+.btn-light {
+  color: #f8f9fa;
+  font-size: 22px;
+  background-color: rgba(248, 249, 250, 0);
+  padding: 20px;
+}
+
+
+a.btn-light:hover {
+  color: black;
 }
