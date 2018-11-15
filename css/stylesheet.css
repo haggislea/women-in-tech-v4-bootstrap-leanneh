@@ -44,7 +44,7 @@ a.nav-link:hover {
   height: 100vh;
 }
 
-section.col-md-4 {
+#pictures {
   margin-top: 340px;
   margin-left: 160px;
   display: flex;
