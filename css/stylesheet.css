@@ -1,19 +1,42 @@
-h1 {
+
+
+
+nav {
+  position: fixed;
+}
+
+a.navbar-brand {
   font-family: 'Dosis', sans-serif;
-  font-size: 80px;
-  position: absolute;
+  font-size: 60px;
   text-shadow: 2px 2px gray;
   top: 60px;
   right: 40px;
   color: white;
-  padding: 10px 30px 10px 30px;
+  padding: 6px 16px;
+  margin-right: 120px;
 }
 
-/*@media screen ( min-width: 640px ) {
-  #homepage{
-    background: lightgrey;
-  }
-}*/
+a.navbar-brand:hover {
+    text-shadow: 2px 2px white;
+}
+
+.navbar-toggler {
+  cursor: grab;
+  font-size: 1.2rem;
+  color: black;
+}
+
+a.nav-link {
+color: black;
+font-size: 20px;
+}
+
+a.nav-link:hover {
+  color: brown;
+  font-weight: bold;
+  text-decoration: overline;
+}
+
 #homepage {
   background: #F5EE90;
   /* background-size: 100%; */
@@ -21,12 +44,12 @@ h1 {
   height: 100vh;
 }
 
-section {
+section.col-md-4 {
   margin-top: 340px;
   margin-left: 160px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 img {
@@ -37,7 +60,7 @@ img {
   margin-left: 40px;
   margin-right: 22px;
   margin-bottom: 22px;
-  margin-top: 26px;
+
 }
 
 figure {
@@ -50,15 +73,7 @@ figure a:hover {
   color: rgb(165, 123, 233);
 }
 
-/*media screen and (max-width: 420px){
-  footer {
-  position: absolute;
-  top: 20px;
-  right: 40px;
-  }
-}
-}*/
-footer {
+#colophon footer {
   margin: 20px;
   padding: 6px 6px 12px;
   position: fixed;
@@ -66,7 +81,7 @@ footer {
   right: 8px;
 }
 
-footer p {
+#colophon footer p {
   top: 20px;
   right: 20px;
   padding: 6px 16px;
@@ -77,10 +92,9 @@ footer p {
 footer p a {
   color: #A34DB1;
   text-decoration: overline;
-  font-weight:
 }
 
 footer p a:hover {
   color: #D60082;
-  text-decoration: overline;
+  text-decoration: none;
 }
