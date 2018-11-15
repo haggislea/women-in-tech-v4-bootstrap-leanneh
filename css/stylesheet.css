@@ -51,6 +51,10 @@ a.nav-link:hover {
   flex-direction: row;
 }
 
+figure.col-md-4.section {
+  margin: 8px;
+}
+
 @media (min-width: 768px) {
   figure.col-md-4.section {
     flex-direction: row;
@@ -59,8 +63,7 @@ a.nav-link:hover {
 
 img {
   border-radius: 640px;
-  border: 4px solid white;
-  height: 320px;
+  height: 420px;
   padding: 24px;
   margin-left: 40px;
   margin-right: 22px;
