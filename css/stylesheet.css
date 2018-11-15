@@ -49,7 +49,12 @@ a.nav-link:hover {
   margin-left: 160px;
   display: flex;
   flex-direction: row;
-  /*flex-wrap: wrap;*/
+}
+
+@media (min-width: 768px) {
+  figure.col-md-4.section {
+    flex-direction: row;
+  }
 }
 
 img {
