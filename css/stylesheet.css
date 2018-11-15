@@ -47,16 +47,12 @@ a.nav-link:hover {
   margin-right: -15px;
   margin-left: -15px;
   margin-top: 260px;
-
 }
-
 
 img {
   border-radius: 640px;
   height: 420px;
-  padding: 24px;
-  margin-left: 40px;
-  margin-right: 22px;
+  margin-top: 120px;
   margin-bottom: 22px;
 }
 
@@ -72,21 +68,20 @@ figure a:hover {
 
 
 
-#colophon footer {
+/*#colophon footer {
   margin: 20px;
   padding: 6px 6px 12px;
   position: fixed;
   bottom: 20px;
   right: 8px;
-}
+}*/
 
-#colophon footer p {
-  top: 20px;
+/*  top: 20px;
   right: 20px;
   padding: 6px 16px;
   font-size: 22px;
   font-family: 'Dosis', sans-serif;
-}
+}*/
 
 footer p a {
   color: #A34DB1;
