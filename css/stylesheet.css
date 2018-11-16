@@ -17,10 +17,13 @@ a.navbar-brand:hover {
   text-shadow: 2px 2px white;
 }
 
-.navbar-toggler {
-  cursor: grab;
+button.navbar-toggler {
+  background-color: rgba(224, 15, 228, 0.17);
+}
+
+span.navbar-toggler-icon {
   font-size: 1.2rem;
-  color: black;
+  color: white;
 }
 
 a.nav-link {
