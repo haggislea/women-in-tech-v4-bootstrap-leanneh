@@ -1,5 +1,10 @@
 nav {
   position: fixed;
+  background-color: rgba(255, 182, 193, 0.4);
+}
+
+.navbar-light .navbar-brand {
+  color: white;
 }
 
 a.navbar-brand {
@@ -28,7 +33,7 @@ span.navbar-toggler-icon {
 
 a.nav-link {
   color: black;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 a.nav-link:hover {
@@ -57,18 +62,13 @@ img {
   height: 420px;
   margin-top: 120px;
   margin-bottom: 22px;
+  margin-left: 32px;
+  filter: grayscale(100%);
 }
 
-figure {
-  padding-top: 32px;
+img:hover {
+  filter: none;
 }
-
-figure a:hover {
-  font-size: 32px;
-  font-weight: 500;
-  color: rgb(165, 123, 233);
-}
-
 
 
 #colophon footer {
@@ -78,8 +78,6 @@ figure a:hover {
   bottom: 20px;
   right: 8px;
 }
-
-
 
 footer p a {
   color: #A34DB1;
