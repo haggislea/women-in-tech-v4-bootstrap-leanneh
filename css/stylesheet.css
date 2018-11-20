@@ -45,7 +45,7 @@ a.nav-link:hover {
 }
 
 #homepage {
-  background: #F5EE90;
+  background-image: url("codingimage.jpg");
   /* background-size: 100%; */
   background-repeat: no-repeat;
   height: 100vh;
