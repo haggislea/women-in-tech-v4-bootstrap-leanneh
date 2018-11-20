@@ -22,7 +22,6 @@ a.navbar-brand:hover {
   text-shadow: 2px 2px white;
 }
 
-
 button.navbar-toggler {
   background-color: rgba(224, 15, 228, 0.17);
   margin-top: 24px;
@@ -45,7 +44,7 @@ a.nav-link:hover {
 }
 
 #homepage {
-  background-image: url("codingimage.jpg");
+  background-image: url("/images/codingimage.jpg");
   /* background-size: 100%; */
   background-repeat: no-repeat;
   height: 100vh;
@@ -71,7 +70,6 @@ img {
 img:hover {
   filter: none;
 }
-
 
 #colophon footer {
   margin: 20px;
